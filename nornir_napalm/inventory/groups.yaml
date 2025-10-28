@@ -1,0 +1,3 @@
+netmiko_group:
+  username: admin
+  password: admin

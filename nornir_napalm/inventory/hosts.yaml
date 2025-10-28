@@ -1,0 +1,11 @@
+sandbox-iosxr-1:
+  hostname: sandbox-iosxr-1.cisco.com
+  platform: iosxr  # NAPALM driver name for Cisco IOS XR
+  username: admin
+  password: C1sco12345
+
+sbx-nxos-mgmt:
+  hostname: sbx-nxos-mgmt.cisco.com
+  platform: nxos  # NAPALM driver name for Cisco NX-OS
+  username: admin
+  password: Admin_1234!
