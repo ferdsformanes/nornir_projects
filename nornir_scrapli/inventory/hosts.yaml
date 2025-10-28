@@ -1,0 +1,21 @@
+sbx-nxos-mgmt:
+  hostname: sbx-nxos-mgmt.cisco.com
+  platform: cisco_nxos
+  username: admin
+  password: Admin_1234!
+  connection_options:
+    scrapli:
+      extras:
+        transport: paramiko
+        auth_strict_key: False  # disables known_hosts check
+
+sandbox-iosxr-1:
+  hostname: sandbox-iosxr-1.cisco.com
+  platform: cisco_iosxr
+  username: admin
+  password: C1sco12345
+  connection_options:
+    scrapli:
+      extras:
+        transport: paramiko
+        auth_strict_key: False  # disables known_hosts check
