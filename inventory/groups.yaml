@@ -1,7 +1,0 @@
-netmiko_group:
-  username: admin
-  password: admin
-  connection_options:
-    netmiko:
-      extras:
-        secret: ""
